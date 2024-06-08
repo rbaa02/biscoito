@@ -57,7 +57,7 @@ body{
 .container button, .btn_sub{
     color: #fff;
     font-size: 12px;
-    padding: 10px 45px;
+    padding: 1.5vh 4vh;
     border: 1px solid transparent;
     border-radius: 8px;
     font-weight: 600;
@@ -110,7 +110,7 @@ body{
     padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
-    width: 100%;
+    width: 130%;
     outline: none;
 }
 
