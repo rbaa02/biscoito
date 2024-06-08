@@ -1,28 +1,20 @@
 /* GRID RES */
 
 @media (max-width: 900px) {
-    .container{
-        padding: 85vh .5vh;
-    }
+    /* .container{
+        padding: 5vh .5vh;
+    } */
     form{
         flex-direction: column;
     }
 }
-@media (max-width: 400px) {
-    .container{
-        padding: 90vh .5vh;
-    }
-}
 @media (min-width: 900px) {
-    .container{
-        padding: 50vh .5vh;
-    }
-    .bloco1{
+    /* .bloco1{
         width: 50%;
     }
     .bloco2{
         width: 50%;
-    }
+    } */
 }
 
 
@@ -31,16 +23,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    padding: 5vh 2vh;
 }
 .bloco, .bloco2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 4vh 0 4vh;
-}
-.c1{
-    margin: 4vh;
 }
 section form{
     display: flex;
