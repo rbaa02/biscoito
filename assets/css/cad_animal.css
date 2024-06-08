@@ -62,7 +62,6 @@ hr{
 }
 .botao_pets ul li{
     margin-left: 4vh;
-    /* width: 20vh; */
     height: 3.4vh;
     padding: 3vh;
     display: flex;
@@ -72,14 +71,12 @@ hr{
 }
 .botao_pets ul li:hover{
     cursor: pointer;
-    /* width: 20vh; */
     transition: all .5s ease;
     background-color: #eef0f7;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 .botao_pets ul #clicked{
     background-color: var(--cor2);
-    /* width: 19vh; */
     transition: all .5s ease;
     height: 3.4vh;
     color: white;
