@@ -174,8 +174,11 @@ hr{
 
 /* RESPONSIVIDADE */
 @media (max-width: 900px) {
-    .container, .carac{
+    .container{
         padding-top: 5vh;
+    }
+    .carac{
+        padding-top: 2vh;
     }
    .background{
     display: flex;
