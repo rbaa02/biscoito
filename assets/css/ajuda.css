@@ -32,7 +32,10 @@ h1{
 h2{
     color: var(--cor1);
 }
-
+.fa{
+    color: #d17123;
+    margin-left: 5%;
+  }
 
 /* gallery */
 .gallery {

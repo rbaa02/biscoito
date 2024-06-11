@@ -1,0 +1,103 @@
+.pagina {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.col1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 55vw;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.col2 {
+    flex-basis: 35vw;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.col1_content  {
+    width: 100%;
+}
+
+.col2_content  {
+    background: linear-gradient(to right, rgb(255, 183, 49), rgb(255, 156, 27));
+    border-radius: 30px;
+    width: 75%;
+    height: 80vh;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.elementos_barra_lateral {
+    height: 100%;
+    padding: 4em 2.5em 4em 2.5em;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.elementos_barra_lateral input[type="text"] {
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 1em 0.5em 1em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filtros {
+    margin-top: 2em;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.botoes button {
+    background-color: #fff;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 1.5vh 3vh;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 1em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.botoes button:hover {
+    background-color: rgb(216, 124, 4);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.elementos_barra_lateral img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5em;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.observacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
