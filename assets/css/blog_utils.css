@@ -13,10 +13,9 @@
 .pagina {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 10%;
+    width: 90%;
     margin: 3em auto;
-    padding: 0 50vh;
+    padding: 0 5vh;
 }
 
 .col1 {
