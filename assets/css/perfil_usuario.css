@@ -44,8 +44,8 @@ hr{
 /* SECTION - IMG_PET*/
 .img_area{
     margin: 3vh 0 3vh 1vh;
-    max-width: 28vh;
-    max-height: 32vh;
+    max-width: 50vh;
+    max-height: 70vh;
 }
 .img_perfil{
     border-radius: 3%;
@@ -190,7 +190,7 @@ hr{
     letter-spacing: 2.5px;
     font-weight: 500;
     color: white;
-    background: var(--cor2);
+    background: var(--cor1);
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -199,23 +199,13 @@ hr{
     outline: none;
 } 
 .btn_editar_perfil:hover {
-    background: var(--cor1);
-    box-shadow: 0px 15px 20px var(--cor2);
+    background: var(--cor2);
+    box-shadow: 0px 15px 20px var(--cor1);
     color: #fff;
     transform: translateY(-7px);
 } 
 .btn_editar_perfil:active {
     transform: translateY(-1px);
-}
-
-/*só deus sabe o q é isso*/
-.swiper-pagination-bullet {
-    background-color: rgba(0, 0, 0, 0.507);
-    opacity: 1;
-}
-  
-.swiper-pagination-bullet-active {
-    background-color: #ED803D;
 }
 
 /*breakpoints*/
@@ -238,6 +228,27 @@ hr{
     }
 }
 
+
+/* SECTION - CAD_ANIMAIS */
+.wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 13px;
+}
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: var(--cor2);
+}
+.wrapper{
+    display: flex;
+    overflow-x: auto;
+    max-width: 100vh;
+    padding-bottom: 1vh;
+}
+.wrapper article{
+    width: 30vh;
+    margin: 0 1vh;
+}
+
 .cad_animais {
     display: flex;
     justify-content: center;
@@ -254,16 +265,16 @@ hr{
 }
 
 .img_card {
-    margin: 1em 0 1em 0;
+    /* margin: 1em 0 1em 0; */
     background-color: #fff;
     position: relative;
+    
 }
-
-.imagem {
+.img_card img {
     margin: 0 auto;
-    border-radius: 20px;
-    width: 30%;
-    height: auto;
+    /* border-radius: 20px; */
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .card_info {
@@ -340,3 +351,4 @@ hr{
         padding-top: calc(16vh + 10%);
     }
 }
+

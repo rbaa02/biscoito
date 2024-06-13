@@ -1,6 +1,4 @@
-.page{
-    width: 30%;
-}
+
 section *{
     max-width: 100vh;
 }
@@ -11,7 +9,6 @@ section *{
     margin-bottom: 4em;
     margin-right: 2em;
 }
-
 .conteudo_principal h2, .cont_secundario h2{
     text-transform: uppercase;
     color: #753602;
@@ -23,21 +20,18 @@ section *{
     justify-content: center;
     align-items: center;
 }
-  
 .slide_container {
     padding-block: 2.5rem;
+    max-width: 100%;
 }
-  
 .slides {
     margin-inline: 1.75rem;
     border-radius: 1.25rem;
     overflow: hidden;
 }
-
 .cont_principal {
     position: relative;
 }
-
 .cont_principal label {
     position: absolute;
     text-transform: uppercase;
@@ -46,7 +40,6 @@ section *{
     left: 28%;
     font-weight: 500;
 }
-
 .cont_principal a {
     position: absolute;
     color: #fefefe;
@@ -57,12 +50,10 @@ section *{
     width: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
- 
 .swiper-pagination-bullet {
     background-color: rgba(0, 0, 0, 0.507);
     opacity: 1;
 }
-  
 .swiper-pagination-bullet-active {
     background-color: #ED803D;
 }
@@ -75,13 +66,6 @@ section *{
         margin-inline: 3rem;
     }
 }
-  
-/*grande*/
-@media screen and (min-width: 900px) {
-    .slide_container {
-        max-width: 1100px;
-    }
-}
 
 /* css dos cards */
 .container {
@@ -89,21 +73,27 @@ section *{
     justify-content: center;
     align-items: center;
 }
-  
-.card_container {
-    padding-block: 2rem;
-}
 
 .artigo_card {
-    border-radius: 1.25rem;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #ffba44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-  
-.img_card{
-    padding-top: 1rem;
+
+.img_card {
+    /* margin: 1em 0 1em 0; */
+    background-color: #fff;
     position: relative;
-    background-color: #ffba44;
+    
+}
+.img_card img {
+    margin: 0 auto;
+    /* border-radius: 20px; */
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .card_info {
@@ -112,38 +102,41 @@ section *{
     border-radius: 1rem;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 10;
 }
 
-.imagem {
-    margin: 0 auto;
-    border-radius: 1.25rem;
-    width: 100%;
-    height: auto;
+.card_info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
-.titulo_card {
-    color: #753602;
-    font-size: 15px;
-    margin-bottom: 0.75rem;
+.card_info a{
+    color: var(--cor2);
+    border: 1px solid var(--cor2);
+    border-radius: 20px;
+    width: 60%;
     text-transform: uppercase;
+    font-size: 12px;
+    padding: 0.2em 0.5em;
+    margin-bottom: 0.5em;
 }
-  
-.txt_card {
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 1.75rem;
-}
-  
-.btn_card {
-    display: inline-block;
-    background-color: #753602;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    color: #fefefe;
+
+.card_info button {
+    padding: 0.75em 1em;
+    font-size: 12px;
+    text-transform: uppercase;
     font-weight: 500;
-    font-size: 15px;
+    color: white;
+    background: var(--cor2);
     border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
 }
   
 .swiper-button-prev:after,
@@ -180,7 +173,6 @@ section *{
 /*breakpoints*/
 /* pequeno*/
 @media screen and (max-width: 300px) {
-
     .card_container {
         max-width: 300px;
     }
@@ -192,14 +184,12 @@ section *{
   
 /*medio*/
 @media screen and (min-width: 700px) {
-
     .card_container {
         max-width: 700px;
     }
     .cards {
         margin-inline: 1rem;
     }
-  
     .swiper-button-next,
     .swiper-button-prev {
         display: block;
@@ -209,7 +199,7 @@ section *{
 /*grande*/
 @media screen and (min-width: 800px) {
     .card_container {
-        max-width: 1000px;
+        max-width: 100%;
     }
   
     .swiper-button-prev {
