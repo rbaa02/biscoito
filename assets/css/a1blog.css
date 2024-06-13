@@ -156,7 +156,7 @@ aside{
 }
 
 /* RESPONSIVE */
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 599px) {
     .background{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
@@ -170,10 +170,19 @@ aside{
     }
     .barra_lateral{ 
         width: 90%;
-        height: auto;
-        padding-top: 5vh;
+        /* height: auto; */
+        /* padding-top: 2vh; */
     }
 }
 @media (min-width: 600px) and (max-width: 900px) {
-    
+    .background{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .barra_lateral{ 
+        width: 90%;
+        /* height: auto; */
+        /* padding-top: 2vh; */
+    }
 }
