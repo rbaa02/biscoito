@@ -7,12 +7,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
 .pagina {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     width: 90%;
     margin: 3em auto;
     padding: 0 5vh;
@@ -49,7 +51,7 @@
 
 .elementos_barra_lateral {
     height: 100%;
-    padding: 4em 2.5em 4em 2.5em;
+    padding: 4em 2.5em;
     display: flex;
     flex-direction: column;
     color: #fff;
